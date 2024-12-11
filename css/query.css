@@ -1,4 +1,15 @@
 @media screen and ( min-width: 480px ) {
+
+    .left-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: black;
+        width: 25%;
+        height: 90vh;
+        padding: 1%;
+    }
+    
     .no-mob{
         display: inline;
     }
@@ -6,4 +17,42 @@
     span{
         display: inline;
     }
+
+    .logo-small{
+        display: none;
+    }
+
+    .img-logo{
+        display: inline;
+    }
+}
+
+@media screen and ( min-width: 768px ){
+
+    .left-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: black;
+        width: 20%;
+        height: 90vh;
+        padding: 1%;
+    }
+    
+    
+}
+
+@media screen and ( min-width: 1024px ){
+
+    .left-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: black;
+        width: 20%;
+        height: 90vh;
+        padding: 1%;
+    }
+    
+    
 }

@@ -38,7 +38,11 @@ p{
 }
 
 .icon{
-    width: 2rem;
+    width: 1.5rem;
+}
+
+.icon-download{
+    width: 1rem;
 }
 
 .icon-prof{
@@ -49,5 +53,9 @@ p{
 
 
 .no-mob{
+    display: none;
+}
+
+.img-logo{
     display: none;
 }
