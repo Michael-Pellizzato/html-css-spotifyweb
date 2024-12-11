@@ -1,16 +1,38 @@
 body{
     display: flex;
+    margin: 0%;
+}
+
+.main{
+    display: flex;
 }
 
 .left-column{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: black;
-    width: 10%;
+    width: 7%;
     height: 90vh;
-
+    padding: 3%;
 }
 
-.icon{
-    
+.icon-prof{
+    background-color: #808080;
+    border-radius: 25px;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #080B12;
+    color: white;
+    padding: 10%;
+}
+
+.playlist{
+    display: flex;
+    background-color: #141922;
+}
+
+
