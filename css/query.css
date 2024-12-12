@@ -1,40 +1,5 @@
 @media screen and ( min-width: 480px ) {
 
-    .left-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: black;
-        width: 25%;
-        height: 90vh;
-        padding: 1%;
-    }
-    
-    .no-mob{
-        display: inline;
-    }
-
-    span{
-        display: inline;
-    }
-
-    .logo-small{
-        display: none;
-    }
-
-    .img-logo{
-        display: inline;
-    }
-
-    .logo{
-        margin-bottom: 10%;
-    }
-
-    .img-span{
-        margin-top: 3%;
-    }
-
-    
 }
 
 
@@ -48,17 +13,6 @@
 
 
 @media screen and ( min-width: 768px ){
-
-    .left-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: black;
-        width: 23%;
-        height: 90vh;
-        padding: 1%;
-    }
-    
     
 }
 
@@ -74,22 +28,4 @@
 
 @media screen and ( min-width: 1024px ){
 
-    body{
-        font-size: 18px;
-    }
-
-    .left-column{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        background-color: black;
-        width: 15%;
-        height: 90vh;
-        padding: 1%;
-    }
-    
-    .logo{
-        width: 12rem;
-    }
-    
 }
