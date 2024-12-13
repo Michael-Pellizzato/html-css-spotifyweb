@@ -9,6 +9,8 @@ body{
     display: flex;
 }
 
+/* COLONNA DI SINISTRA */
+
 .left-column-icon .logo-xl{
     display: none;
 
@@ -56,3 +58,44 @@ body{
     gap: 2px;
 }
 
+.cross-span{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    gap: 2px;
+}
+
+.cross{
+    background-color: gray;
+    font-size: x-large;
+}
+
+/* RIGA SOPRA */
+
+.upgrade{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #090b12;
+    color: white;
+    width: 90vw;
+    height: 5vh;
+}
+
+.upgrade span{
+    border-style: groove;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.scroll{
+    display: flex;
+    background-color: #141922;
+    color: white;
+    width: 90vw;
+    height: 85vh;
+    padding: 1%;
+}
+
+                

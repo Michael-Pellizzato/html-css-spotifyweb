@@ -1,5 +1,11 @@
 @media screen and ( min-width: 480px ) {
 
+    body{
+        font-size: 10px;
+    }
+
+    /* COLONNA DI SINISTRA */
+
     .left-column-icon span{
         display: inline;
     }
@@ -28,6 +34,8 @@
         width: 20vw;
         height: 90vh;
     }
+
+    /* RIGA SOPRA */
 }
 
 
@@ -41,6 +49,43 @@
 
 
 @media screen and ( min-width: 768px ){
+
+    body{
+        font-size: 12px;
+    }
+
+    /* COLONNA DI SINISTRA */
+
+    .left-column-icon span{
+        display: inline;
+    }
+    
+    .left-column-icon .logo-xl{
+        display: inline;
+        width: 15vw;
+        margin-bottom: 5vh;
+    }
+
+    .left-column-icon .logo-xs{
+        display: none;
+    }
+
+    .left-column-icon{
+        align-items: flex-start;
+    }
+
+    .left-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1%;
+        background-color: #000000;
+        width: 15vw;
+        height: 90vh;
+    }
+
+    /* RIGA SOPRA */
     
 }
 
@@ -55,5 +100,42 @@
 
 
 @media screen and ( min-width: 1024px ){
+
+    body{
+        font-size: 14px;
+    }
+
+    /* COLONNA DI SINISTRA */
+
+    .left-column-icon span{
+        display: inline;
+    }
+    
+    .left-column-icon .logo-xl{
+        display: inline;
+        width: 15vw;
+        margin-bottom: 5vh;
+    }
+
+    .left-column-icon .logo-xs{
+        display: none;
+    }
+
+    .left-column-icon{
+        align-items: flex-start;
+    }
+
+    .left-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1%;
+        background-color: #000000;
+        width: 15vw;
+        height: 90vh;
+    }
+
+    /* RIGA SOPRA */
 
 }
