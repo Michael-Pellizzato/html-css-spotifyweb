@@ -1,7 +1,6 @@
 body{
     font-family: sans-serif;
-    font-size: 8px;
-    margin: auto;
+    font-size: 0.5rem;
 
 }
 
@@ -14,6 +13,14 @@ a{
     color: white;
 }
 
+img{
+    width: 100%;
+}
+
+span{
+    color: white;
+}
+
 ul{
    list-style: none; 
 }
@@ -22,6 +29,7 @@ ul{
 
 .left-column-icon .logo-xl{
     display: none;
+    width: max-content;
 
 }
 
@@ -36,7 +44,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3px;
+    padding: 2px;
     
 }
 
@@ -109,6 +117,43 @@ ul{
      border-radius: 20px;
      color: white;
  }
+ 
+ .podcast{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.podcast li{
+    flex-basis: calc( 100% / 4 - 20px );
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-album{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    flex-basis: calc( 100% / 2 - 10px );
+}
+
+.paragrafo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    font-size: 1.2rem;
+}
 
 /* .scroll{
     display: flex;
@@ -129,9 +174,53 @@ ul{
 /* inizio footer */
 
 footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 10vh;
-    background-color: aquamarine;
+    background-color: #272727;
+    padding: 20px;
+    justify-content: space-between;
 }
+
+.footer-left{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.footer-center{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#minialbum{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-contain{
+    flex-basis: calc( 100% / 3 -20);
+    gap: 10px;
+}
+
+.span-footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
                 
