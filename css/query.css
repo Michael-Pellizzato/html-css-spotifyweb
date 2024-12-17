@@ -36,6 +36,17 @@
     }
 
     /* RIGA SOPRA */
+
+    .upgrade{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #090b12;
+        color: white;
+        width: 90vw;
+        height: 5vh;
+    }
 }
 
 
@@ -86,7 +97,17 @@
     }
 
     /* RIGA SOPRA */
-    
+
+    .upgrade{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #090b12;
+        color: white;
+        width: 90vw;
+        height: 5vh;
+    }
 }
 
 
@@ -137,5 +158,16 @@
     }
 
     /* RIGA SOPRA */
+
+    .upgrade{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #090b12;
+        color: white;
+        width: 90vw;
+        height: 5vh;
+    }
 
 }
